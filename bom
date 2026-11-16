@@ -1,1 +1,16 @@
+Para su simulación: 
+- ESP32
+- Servomotor
+- Led
+- PIR motion sensor 
 
+Físico: 
+- ESP32
+- Sensor PR
+- Servomotor
+- Led
+- Resistencia de 220 Ω 
+- Protoboard 
+- Cables jumper
+- Fuente de alimentación 
+- Cuerpo del comedor y recipiente 
