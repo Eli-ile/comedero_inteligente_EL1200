@@ -1,16 +1,21 @@
 # comedero_inteligente_EL1200
+
 Simulación de comedero automático para gatos con ESP32, sensor PIR y servomotor
 Proyecto del curso EL-1200 Introducción a la Electrónica, TEC, II semestre 2026.
+
 **Integrantes:** Idalíe
+
 ## Descripción
 Comedero automático que dispensa alimento solo cuando detecta al gato
 y evita servir de más si el gato se queda frente al plato.
+
 ## Funcionamiento
 - El sensor PIR detecta la presencia del gato.
 - El servomotor abre la compuerta 1,5 s y la vuelve a cerrar.
 - El LED indica que se está sirviendo.
 - Una variable booleana (dispensado) evita que se sirva otra vez
  mientras el gato sigue ahí.
+
 ## Conexiones
 | Componente      | Pin del ESP32 |
 |-----------------|---------------|
@@ -20,12 +25,16 @@ y evita servir de más si el gato se queda frente al plato.
 | Alimentación    | 3V3 y GND     |
 
 ![Diagrama](docs/esquema.png)
+
 ## Simulación
 Proyecto en Wokwi: [<enlace público>](https://wokwi.com/projects/480814670363028481)
+
 ## Código
 Ver la carpeta firmware/. Biblioteca usada: ESP32Servo.
+
 ## Evidencia
 ![Simulación](media/simulacion.png)
+
 ## Mejoras futuras
 - Incorporar un sensor de nivel para detectar cuándo se está agotando el alimento y avisar al propietario.
 - Implementar un sistema de horarios para programar la dispensación automática de alimento, incluso cuando no se detecte movimiento.
